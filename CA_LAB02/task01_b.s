@@ -1,3 +1,9 @@
+main:
+li x22,0    #i
+li x23,0   #j
+li x20,2    #a
+li x21,3    #b
+
 loop: 
 slli x10,x22,2
 add x10,x10,x25
