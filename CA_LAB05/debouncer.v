@@ -1,0 +1,20 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: Muddassir Ali
+
+// Module Name: debouncer
+// Project Name: Counter
+// Target Devices: Baasys 3
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module debouncer(
+    input clk,
+    input pbin,
+    output pbout
+    );
+  
+    assign pbout = pbin;
+endmodule
